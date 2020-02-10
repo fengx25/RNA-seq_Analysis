@@ -1,3 +1,4 @@
+#leaf
 load("expression.pattern.leaf.sal.RData")
 cluster.num <- data.frame(array(0,c(10000, 9)))
 colnames(cluster.num) <- c("up_up", "up_down", "up_flat", "flat_up", "down_down", "down_up", "down_flat", "flat_down", "flat_flat")
