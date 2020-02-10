@@ -1,5 +1,6 @@
 ### root
-load("exp.pool.root.sal.RData")
+#load formatted cuffdiff results
+exp.pool.root
 
 exp.pool.root.opposite <- exp.pool.root
 exp.pool.root.opposite[, 2] <- exp.pool.root [, 3]
