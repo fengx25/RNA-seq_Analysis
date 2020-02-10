@@ -1,5 +1,6 @@
 ### leaf
-load("exp.pool.leaf.sal.RData")
+#load formatted cuffdiff output
+exp.pool.leaf
 
 exp.pool.leaf.opposite <- exp.pool.leaf
 exp.pool.leaf.opposite[, 2] <- exp.pool.leaf [, 3]
