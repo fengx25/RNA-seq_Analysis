@@ -1,4 +1,4 @@
-#simulation 1w leaf
+#1w runs, leaf
 load("cluster.num.sal.leaf.10000.RData")
 
 length(which(cluster.num[, c("up_up")] >= 61))
@@ -10,7 +10,7 @@ length(which(cluster.num[, c("down_up")] >= 31))
 length(which(cluster.num[, c("down_flat")] >= 494))
 length(which(cluster.num[, c("flat_down")] >= 1045))
 
-#simulation 1w root
+#1w runs, root
 load("cluster.num.sal.root.10000.RData")
 length(which(cluster.num[, c("up_up")] >= 11))
 length(which(cluster.num[, c("up_down")] >= 10))
